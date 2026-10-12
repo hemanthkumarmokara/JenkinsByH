@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Developer portfolio and CI/CD learning project">
+  <title>Your Name | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">YourName<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a>
+      <a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">ASPIRING DEVOPS ENGINEER</p>
+      <h1>Building things.<br><span>Automating delivery.</span></h1>
+      <p class="intro">I'm learning DevOps by building useful projects and automating how they are tested, packaged, and deployed.</p>
+      <div class="actions"><a class="button" href="#projects">View my projects</a><a class="text-link" href="#contact">Get in touch →</a></div>
+      <div class="status"><span class="status-dot"></span> Learning by building · CI/CD in progress</div>
+    </section>
+    <section id="about" class="section">
+      <p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by default.</h2>
+      <p>I enjoy understanding how software moves from a developer's machine to a running application. This portfolio is a hands-on project for practicing Git, GitHub, Jenkins, Linux, and Docker.</p>
+    </section>
+    <section id="projects" class="section">
+      <p class="eyebrow">SELECTED WORK</p><h2>Projects I'm building</h2>
+      <article class="project-card"><div class="project-top"><span class="project-number">01</span><span class="pill">CI/CD</span></div>
+      <h3>Portfolio Delivery Pipeline</h3><p>A static portfolio website validated by Jenkins, packaged into a Docker image, and deployed to a local container.</p>
+      <ul class="tags"><li>Git</li><li>Jenkins</li><li>Docker</li><li>Linux</li></ul></article>
+    </section>
+    <section id="skills" class="section">
+      <p class="eyebrow">TOOLS I'M PRACTICING</p><h2>My current toolkit</h2>
+      <div class="skill-grid"><div class="skill">Linux &amp; WSL</div><div class="skill">Git &amp; GitHub</div><div class="skill">Jenkins</div><div class="skill">Docker</div><div class="skill">HTML &amp; CSS</div><div class="skill">Shell scripting</div></div>
+    </section>
+    <section id="contact" class="section">
+      <p class="eyebrow">LET'S CONNECT</p><h2>More projects coming soon.</h2>
+      <p>Replace these sample links with your real profiles before publishing.</p>
+      <div class="actions"><a class="button" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a><a class="text-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Your Name</span><span>Built and delivered with CI/CD.</span></footer>
+</body>
+</html>
