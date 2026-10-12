@@ -36,7 +36,7 @@ pipeline {
                 sh '''
                     set -eu
                     chmod +x tests/test-site.sh
-                    ./tests/test-site.sh
+                    bash tests/test-site.sh
                 '''
             }
         }
